@@ -1,63 +1,52 @@
-# projeto-quarkus
+![Quarkus](https://img.shields.io/badge/Quarkus-4695EB?style=for-the-badge&logo=quarkus&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white) 
+![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+# Quarkus Rede Social API Project
 
-If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
+Este é um projeto de API desenvolvido com Quarkus, utilizando o Panache ORM para interações com o banco de dados, JUnit 5 para testes e Maven como ferramenta de build.
 
-## Running the application in dev mode
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/f78cb769-fcba-4808-a007-e0a045c09f5d" alt="image" />
+</div>
 
-You can run your application in dev mode that enables live coding using:
 
-```shell script
-./mvnw compile quarkus:dev
+## Tecnologias Utilizadas
+
+- **[Quarkus](https://quarkus.io/):** Framework para desenvolvimento de microservices e aplicações nativas em nuvem.
+- **[Panache ORM](https://quarkus.io/guides/hibernate-orm-panache):** Extensão do Hibernate ORM, simplificando o uso de ORM com Quarkus.
+- **[JUnit 5](https://junit.org/junit5/):** Framework de testes para Java, utilizado para escrever e executar testes unitários.
+- **[Maven](https://maven.apache.org/):** Ferramenta de build e gerenciamento de dependências.
+
+## Requisitos
+
+- **Java**
+- **Maven Compiler 3.13+**
+- **Quarkus 3.14.4+**
+
+## Como Executar o Projeto
+
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/seu-repositorio.git
+    ```
+
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd seu-repositorio
+    ```
+
+3. Execute o projeto em modo de desenvolvimento:
+    ```bash
+    ./mvnw compile quarkus:dev
+    ```
+
+    O projeto estará disponível em: `http://localhost:8080`
+
+## Testes
+
+Para rodar os testes, execute:
+```bash
+./mvnw test
 ```
-
-> **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at <http://localhost:8080/q/dev/>.
-
-## Packaging and running the application
-
-The application can be packaged using:
-
-```shell script
-./mvnw package
-```
-
-It produces the `quarkus-run.jar` file in the `target/quarkus-app/` directory.
-Be aware that it’s not an _über-jar_ as the dependencies are copied into the `target/quarkus-app/lib/` directory.
-
-The application is now runnable using `java -jar target/quarkus-app/quarkus-run.jar`.
-
-If you want to build an _über-jar_, execute the following command:
-
-```shell script
-./mvnw package -Dquarkus.package.jar.type=uber-jar
-```
-
-The application, packaged as an _über-jar_, is now runnable using `java -jar target/*-runner.jar`.
-
-## Creating a native executable
-
-You can create a native executable using:
-
-```shell script
-./mvnw package -Dnative
-```
-
-Or, if you don't have GraalVM installed, you can run the native executable build in a container using:
-
-```shell script
-./mvnw package -Dnative -Dquarkus.native.container-build=true
-```
-
-You can then execute your native executable with: `./target/projeto-quarkus-1.0.0-SNAPSHOT-runner`
-
-If you want to learn more about building native executables, please consult <https://quarkus.io/guides/maven-tooling>.
-
-## Provided Code
-
-### REST
-
-Easily start your REST Web Services
-
-[Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
-# quarkus-social
