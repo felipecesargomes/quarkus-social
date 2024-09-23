@@ -29,7 +29,7 @@ Este é um projeto de API desenvolvido com Quarkus, utilizando o Panache ORM par
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone https://github.com/felipecesargomes/quarkus-social.git
     ```
 
 2. Navegue até o diretório do projeto:
