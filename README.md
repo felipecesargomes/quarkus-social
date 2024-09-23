@@ -21,7 +21,7 @@ Este é um projeto de API desenvolvido com Quarkus, utilizando o Panache ORM par
 
 ## Requisitos
 
-- **Java**
+- **Java 22**
 - **Maven Compiler 3.13+**
 - **Quarkus 3.14.4+**
 
