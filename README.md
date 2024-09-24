@@ -51,7 +51,7 @@ Este é um projeto de API desenvolvido com Quarkus, utilizando o Panache ORM par
 - **[RESTEasy Classic Jackson](https://quarkus.io/guides/rest-json):** Integração com a biblioteca Jackson para trabalhar com JSON.
 - **[JDBC Driver - PostgreSQL](https://quarkus.io/guides/datasource):** Driver JDBC para conexão com banco de dados PostgreSQL.
 
-## Requisitos
+## Versions Developer
 
 - **Java 22**
 - **Maven Compiler 3.9.8~3.13+**
