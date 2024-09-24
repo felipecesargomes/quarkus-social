@@ -80,5 +80,5 @@ Este é um projeto de API desenvolvido com Quarkus, utilizando o Panache ORM par
 
 Para rodar os testes, execute:
 ```bash
-./mvnw test
+./mvnw test -Dquarkus.profile=test -X
 ```
