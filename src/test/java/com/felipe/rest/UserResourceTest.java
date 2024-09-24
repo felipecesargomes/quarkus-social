@@ -32,4 +32,10 @@ class UserResourceTest {
 
     }
 
+  /**  @Test
+    @DisplayName("")
+    public void createUserValidationErrorTest() {
+
+    }**/
+
 }
